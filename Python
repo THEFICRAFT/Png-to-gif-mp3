@@ -3,7 +3,7 @@ from PIL import Image, ImageEnhance
 import numpy as np
 
 # === Pengaturan Awal ===
-image_path = "logo_kamu.png"  # Ganti dengan nama file logomu
+image_path = "enhanced_image~2.png"  # Ganti dengan nama file logomu
 original_img = Image.open(image_path).convert("RGBA")
 resized_img = original_img.resize((512, 512), resample=Image.BICUBIC)
 
